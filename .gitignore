@@ -1,0 +1,18 @@
+# Game files and builds derived from Minecraft: never commit
+.local/
+26.3/
+horizon-client/
+horizon-resources*
+*.ipa
+*.zip
+*.app/
+
+# Signing material and secrets
+*.mobileprovision
+*.p12
+*.pem
+.env
+
+# Launcher data
+accounts.json
+settings.json
